@@ -10,7 +10,11 @@ Prévia de site para abordagem comercial. HTML estático, sem build.
 ## Rodar
     npx serve public -l 4180
 
+## Publicar (Cloudflare, conta usewebverse@gmail.com)
+    npx wrangler deploy
 
+Só a pasta `public/` vai pro ar.
+URL: https://webverse-ortotrauma.usewebverse.workers.dev
 
 Fotos originais (panorâmicas 360, 4000px) ficam em `_bruto/`, fora do git.
 
