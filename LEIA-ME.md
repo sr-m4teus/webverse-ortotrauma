@@ -8,7 +8,9 @@ Prévia de site para abordagem comercial. HTML estático, sem build.
   Gancho de venda: site com agendamento direto por exame (mensagem pronta) + agenda dos médicos visível.
 
 ## Rodar
-    npx serve . -l 4180
+    npx serve public -l 4180
+
+
 
 Fotos originais (panorâmicas 360, 4000px) ficam em `_bruto/`, fora do git.
 
